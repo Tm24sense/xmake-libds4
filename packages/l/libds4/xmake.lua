@@ -9,8 +9,6 @@ package("libds4")
     )
 
     add_versions("1.0.0", "ACF21D152CA1EDFE4DBECF763F57824B45D0CF08EA07EE8F816D391A2177A6AE")
-
-    add_deps("xmake")
     add_deps("hidapi", {configs = {shared = false}})
 
     add_configs("shared", {
