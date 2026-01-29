@@ -8,7 +8,7 @@ package("libds4")
         "https://github.com/Tm24sense/libds4/archive/refs/heads/main.zip"
     )
 
-    add_versions("1.0.0", "52D0040DB8E854A8A524314805BB144C6703B0EAF596D4178AB789FE362A6662")
+    add_versions("1.0.0", "ACF21D152CA1EDFE4DBECF763F57824B45D0CF08EA07EE8F816D391A2177A6AE")
     add_deps("hidapi", {configs = {shared = false}})
 
     add_configs("shared", {
